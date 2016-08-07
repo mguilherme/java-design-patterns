@@ -1,5 +1,5 @@
 language: java
-script: mvn test
+script: ./gradlew test
 jdk: oraclejdk8
 notifications:
   email:
