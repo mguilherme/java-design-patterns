@@ -2,13 +2,13 @@
 
 ### Types
 
-* Creational Patterns  
+* **Creational Patterns**  
     Provide a way to create objects while hiding the creation logic.
-* Structural Patterns  
+* **Structural Patterns**  
     This design patterns concerns class and object composition. 
-* Behavioral Patterns
+* **Behavioral Patterns**
     Specifically concerned with communication between objects.
-* J2EE Patterns  
+* **J2EE Patterns**  
     Concern with presentation tier. These patterns are identified by Sun Java Center.
     
 #### Factory Pattern
