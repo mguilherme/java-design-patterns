@@ -11,7 +11,7 @@ import static org.hamcrest.core.IsInstanceOf.instanceOf;
 /**
  * @author Miguel Guilherme
  */
-public class ShapesTest {
+public class FactoryTest {
 
     private ShapeFactory shapeFactory;
 
