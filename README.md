@@ -16,3 +16,6 @@ In Factory pattern, we create object without exposing the creation logic to the 
 
 #### Abstract Factory Pattern
 Abstract Factory patterns work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+#### Singleton Pattern
+This pattern involves a single class which is responsible to create an object while making sure that only a single object gets created.
