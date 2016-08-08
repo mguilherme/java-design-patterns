@@ -6,7 +6,7 @@
     Provide a way to create objects while hiding the creation logic.
 * **Structural Patterns**  
     This design patterns concerns class and object composition. 
-* **Behavioral Patterns**
+* **Behavioral Patterns**  
     Specifically concerned with communication between objects.
 * **J2EE Patterns**  
     Concern with presentation tier. These patterns are identified by Sun Java Center.
