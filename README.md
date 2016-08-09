@@ -19,3 +19,6 @@ Abstract Factory patterns work around a super-factory which creates other factor
 
 #### Singleton Pattern
 This pattern involves a single class which is responsible to create an object while making sure that only a single object gets created.
+
+#### Builder Pattern
+A Builder class builds the final object step by step. This builder is independent of other objects.
