@@ -11,7 +11,7 @@ public class Wrapper implements Packing {
 
     @Override
     public boolean equals(Object obj) {
-        Wrapper wrapper = (Wrapper) obj;
+        Packing wrapper = (Wrapper) obj;
         return wrapper.pack().equals(pack());
     }
 }

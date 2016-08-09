@@ -11,7 +11,7 @@ public class Bottle implements Packing {
 
     @Override
     public boolean equals(Object obj) {
-        Bottle bottle = (Bottle) obj;
+        Packing bottle = (Bottle) obj;
         return bottle.pack().equals(pack());
     }
 }
