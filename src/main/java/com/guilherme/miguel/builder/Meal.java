@@ -14,20 +14,15 @@ public class Meal {
     }
 
     public float getCost() {
-        float cost = 0.0f;
-
-        for (Item item : items) {
-            cost += item.price();
-        }
-        return cost;
+        return (float) items.stream().mapToDouble(Item::price).sum();
     }
 
     public void showItems() {
-        for (Item item : items) {
+        items.forEach(item -> {
             System.out.print("Item : " + item.name());
             System.out.print(", Packing : " + item.packing().pack());
             System.out.println(", Price : " + item.price());
-        }
+        });
     }
 
     public List<Item> getItems() {
